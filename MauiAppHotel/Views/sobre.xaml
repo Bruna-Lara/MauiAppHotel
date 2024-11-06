@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.sobre"
+             Title="sobre"
+              NavigationPage.HasNavigationBar="False"
+              BackgroundColor="#eaeaea"
+            
+             >
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10">
+        <Label 
+            Text="Sobre"
+            FontFamily="Kalam"
+            FontSize="40"
+            TextColor="#002b5b"
+    
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Frame Padding="10"
+               
+               BackgroundColor="#a2b9bc">
+            <VerticalStackLayout>
+
+               
+                     
+                    
+                    <Label
+                           Text="Desenvido por:"
+                           TextColor="#002b5b"
+                           FontFamily="Kalam"
+                           FontSize="20"
+                           />
+
+                   
+
+
+
+                <Label  
+        Text="Bruna Luisa de Lara Passos"
+        TextColor="#002b5b"
+        FontFamily="Kalam"
+        FontSize="20"
+                    /> 
+                <Label 
+                    Text="novembro/2024"
+                    FontFamily="Kalam"
+                    TextColor="#002b5b"
+                    HorizontalOptions="Center"
+                    Margin="20"
+                    
+                    />
+
+            </VerticalStackLayout>
+
+        </Frame>
+        <Button
+            Text="Voltar"
+            FontFamily="Kalam"
+            BackgroundColor="DarkRed"
+            Margin="10"/>
+    </VerticalStackLayout>
+</ContentPage>
