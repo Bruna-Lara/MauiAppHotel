@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.BoasVindas"
+             Title="BoasVindas"   
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#eaeaea" >
+    
+    
+    <VerticalStackLayout  VerticalOptions="CenterAndExpand"
+                         Padding="10">
+        <Frame Padding="10"
+               BackgroundColor="#a2b9bc"
+               >
+            <VerticalStackLayout>
+        <Label 
+            Text="Seja Bem-Vindo ao Hotel Mirage Palace!"
+            FontFamily="Kalam"
+            FontSize="40"
+            TextColor="White"
+            HorizontalTextAlignment="Center"
+            />
+
+        <Label 
+        Text="Calcule sua diária com facilidade! Seu quarto está esperando..."
+        FontFamily="Kalam"
+         FontSize="30"
+         TextColor="#002B5B" 
+            HorizontalTextAlignment="Center"
+            Margin="30"/>
+            </VerticalStackLayout>
+        </Frame>
+        <Button Text="Clique aqui para começar a aventura!" Clicked="Button_Clicked"
+                 Margin="5"
+                 Background="DarkRed"
+                 FontFamily="Kalam"/>
+    </VerticalStackLayout>
+</ContentPage>

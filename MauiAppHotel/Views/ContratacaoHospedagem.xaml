@@ -66,6 +66,7 @@
 
                 <Picker x:Name="pck_quarto"
                         Title="Selecione sua Acomodação"
+                        ItemDisplayBinding="{Binding Descricao}"
                          FontFamily="Kalam"
                          TextColor="#002B5B"
                         Margin="10"
@@ -90,6 +91,7 @@
                                     FontFamily="Kalam"
                                     TextColor="#002B5B"/>
                             <DatePicker x:Name="dtpck_checkin"
+                                        DateSelected="dtpck_checkin_DateSelected"
                                         Format="dd/MM/yyyy"/>
 
                         </HorizontalStackLayout>
@@ -112,7 +114,7 @@
                         Background="DarkRed"
                         FontFamily="Kalam"/>
                 
-                <Button Text="Sobre"
+                <Button Text="Sobre" Clicked="Button_Clicked_1"
                         Margin="5"
                         FontFamily="Kalam"
                         BackgroundColor="DarkRed"/>

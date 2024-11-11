@@ -56,7 +56,7 @@
 
         </Frame>
         <Button
-            Text="Voltar"
+            Text="Voltar" Clicked="Button_Clicked"
             FontFamily="Kalam"
             BackgroundColor="DarkRed"
             Margin="10"/>
